@@ -1,0 +1,20 @@
+Description:
+
+    The app_config generator creates an application.yml file in which you can
+    store some essential settings for your rails application. The code it
+    generates was inspired by Topfunky's Rails Code Review PDF, available
+    here: http://peepcode.com/products/draft-rails-code-review-pdf
+
+Example:
+    
+    ./script/generate app_config
+
+    This will create two files:
+
+    config/application.yml
+    config/initializers/application_config.rb
+
+Credits, suggestions and complaints:
+    
+    send to: Norman Clarke <norman@addthree.com>
+

@@ -1,0 +1,8 @@
+development: &non_production_settings 
+    host: 0.0.0.0:3000
+
+test: 
+  <<: *non_production_settings 
+
+production: 
+    host: example.org
